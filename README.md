@@ -22,9 +22,11 @@ aujourd'hui je souhaite apprendre le code et pouvoir créer des sites en fullsta
 
 ## Aujourd'hui
 
-Au jourd'hui je souhaite me retourner vers un parcours en rapport avec mes études, c'est pour cela que j'ai voulu rentrer chez simplon en effet je souhaite compléter mes compétences acquises durant mon cursus universitaire,pour ajouter de nouvelles cordes à mon arc. 
+Aujourd'hui je souhaite me retourner vers un parcours en rapport avec mes études, c'est pour cela que j'ai voulu rentrer chez simplon en effet je souhaite compléter mes compétences acquises durant mon cursus universitaire, pour ajouter de nouvelles cordes à mon arc. 
 Je veux développer des compétences en code, notamment le PHP et dans la création de site full stack
 
 ## Demain
 
-Mon projet professionnel, c'est de mettre à profit mes connaissances et mes compétences au sein de start up ou grosses entreprises à l'étranger notamment les pays anglophone.
+Mon projet professionnel, c'est de mettre à profit mes connaissances et mes compétences au sein de start up ou grosses entreprises à l'étranger notamment les pays anglophones.
+
+[me contacter](contact.html)

@@ -30,4 +30,20 @@ Je veux développer des compétences en code, notamment le PHP et dans la créat
 
 Mon projet professionnel, c'est de mettre à profit mes connaissances et mes compétences au sein de start up ou grosses entreprises à l'étranger notamment les pays anglophones.
 
-[me contacter](contact.html)
+<form class="burger" action="" method="post">
+            <p class="bun-top">
+                Votre nom : <input type="text" name="name" value="">
+            </p>
+            <p class="tomato">
+                Objet de message : <input type="text" name="object" value="">
+            </p>
+            <p class="onion"></p>
+            <p class="bun-bottom">
+                Votre message : <textarea name="message"></textarea>
+            </p>
+            <p class="plate">
+                <input type="submit" value="Envoyer">
+            </p>
+        </form>
+
+

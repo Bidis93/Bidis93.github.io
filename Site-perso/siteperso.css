@@ -1,0 +1,61 @@
+* {
+  font-family: helvetica,sans-serif;
+}
+body{
+  background-color: #00BFFF60;
+
+}
+
+.bordure{
+border-right: 1px solid black;
+padding-right: 65px;
+
+}
+
+.nom{
+margin-top: 20px;
+font-weight: bold;
+font-size: 150%;
+}
+.portfolio{
+margin-top: -5px;
+font-size:90%;
+}
+
+.texte-typo{
+margin-top: 70px;
+font-weight: bold;
+font-size: 240%;
+}
+
+.texte-inscription{
+margin-top: 50px;
+}
+
+.interligne{
+margin-top: -20px;
+margin-bottom: 0px;
+}
+
+p{
+  margin-top:-5px;
+  margin-bottom: 0px
+}
+button{
+  background-color: black;
+  color: white;
+  border: none;
+  margin-top: 5px;
+  width: 74.2%;
+  height: 32px;
+}
+
+input{
+  border: none;
+  width: 74.2%;
+  height: 32px;
+}
+
+.formulaire{
+  margin-top: 20px;
+}

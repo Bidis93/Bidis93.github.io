@@ -2,7 +2,7 @@
 layout: page
 permalink: index.html
 Site-perso: siteperso
-permalink: siteperso.html
+permalink: index.html
 
 ---
 

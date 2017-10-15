@@ -15,29 +15,29 @@ margin-left: 75px;
 
 .nom{
 margin-top: 30px;
-margin-left: 25px;
+margin-left: 26px;
 font-weight: bold;
 font-size: 150%;
 color: black;
 }
 .portfolio{
 margin-top: -5px;
-margin-left: 25px;
+margin-left: 26px;
 font-size:90%;
 font-weight: lighter;
 color: white;
 }
 
 .texte-typo{
-margin-top: 30px;
-margin-left: 20px;
+margin-top: 45px;
+margin-left: 25px;
 font-weight: bold;
 font-size: 240%;
 color: white;
 }
 
 .texte-inscription{
-margin-top: 30px;
+margin-top: 18px;
 margin-left: 25px;
 color: white;
 font-weight: lighter;
@@ -87,8 +87,8 @@ max-width: 100%;
 }
 
 .contact{
+  margin-top: 0;
   margin-left: 100px;
-  margin-bottom: -250px;
   font-weight: lighter;
   font-size: 50%;
   color: white;
@@ -100,20 +100,17 @@ article{
 
 }
 
-.footer{
+.tête{
   margin-right: : -80px;
-  margin-top: 25px;
-  width: 135%;
+  margin-top: 15px;
+  width: 84%;
   height: 0.5px;
   background-color: #FFFF;
   border: none;
 }
-
-.tête{
-  margin-right: : -80px;
-  margin-top: 15px;
-  width: 102%;
-  height: 0.5px;
-  background-color: #FFFF;
-  border: none;
+.bordure-bas{
+  margin-left:26px;
+  margin-top: 38px;
+  border-bottom:0.5px solid #FFFF;
+  width: 110%;
 }

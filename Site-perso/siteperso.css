@@ -1,116 +1,124 @@
 * {
-  font-family: helvetica,sans-serif;
+	font-family: helvetica, sans-serif;
 }
-body{
-  background-image: url('http://paca.lpo.fr/blogs/ecrins-embrunais/files/2014/01/IMG_7347_2.jpg');
+body {
+	background-image: url('http://paca.lpo.fr/blogs/ecrins-embrunais/files/2014/01/IMG_7347_2.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
-.bordure{
-border-right: NONE;
-padding-right: 75px;
+.bordure {
+	border-right: NONE;
+	padding-right: 75px;
 }
-
-.container{
-margin-left: 75px;
+.container {
+	position: relative;
+	margin-left: 75px;
 }
-
-.nom{
-margin-top: 30px;
-margin-left: 26px;
-font-weight: bold;
-font-size: 150%;
-color: black;
+a {
+	color: black;
+	text-decoration: none;
 }
-.portfolio{
-margin-top: -5px;
-margin-left: 26px;
-font-size:90%;
-font-weight: lighter;
-color: white;
+a:hover {
+	color: black;
 }
-
-.texte-typo{
-margin-top: 45px;
-margin-left: 25px;
-font-weight: bold;
-font-size: 240%;
-color: white;
+.cercle {
+	position: absolute;
+	margin-top: 27px;
+	margin-left: 25px;
+	overflow: hidden;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
 }
-
-.texte-inscription{
-margin-top: 18px;
-margin-left: 25px;
-color: white;
-font-weight: lighter;
+.nom {
+	margin-top: 30px;
+	margin-left: 85px;
+	font-weight: bold;
+	font-size: 150%;
+	color: black;
 }
-
-.interligne{
-margin-top: -20px;
-margin-bottom: 0px;
+.portfolio {
+	margin-top: -5px;
+	margin-left: 86px;
+	font-size: 90%;
+	font-weight: lighter;
+	color: white;
 }
-
-p{
-  margin-top:-5px;
-  margin-bottom: 0px
+.texte-typo {
+	margin-top: 45px;
+	margin-left: 25px;
+	font-weight: bold;
+	font-size: 240%;
+	color: white;
 }
-button{
-  background-color: black;
-  color: white;
-  border:none;
-  margin-top: 5px;
-  margin-left: 25px;
-  width: 74.2%;
-  height: 32px;
+.texte-inscription {
+	margin-top: 18px;
+	margin-left: 25px;
+	color: white;
+	font-weight: lighter;
 }
-
-input{
-  margin-left: 25px;
-  border: 0.5px solid grey;
-  width: 74.2%;
-  height: 32px;
+.interligne {
+	margin-top: -20px;
+	margin-bottom: 0px;
 }
-
-.formulaire{
-  margin-top: 10px;
+p {
+	margin-top: -5px;
+	margin-bottom: 0px
 }
-
-.d-block{
-margin-top: 90px;
-margin-left: 23px;
-max-width: 100%;
+button {
+	background-color: black;
+	color: white;
+	border: none;
+	margin-top: 5px;
+	margin-left: 25px;
+	width: 74.2%;
+	height: 32px;
 }
-
-.carousel-item{
-  image-orientation: center;
+input {
+	margin-left: 25px;
+	border: 0.5px solid grey;
+	width: 74.2%;
+	height: 32px;
 }
-.w-100{
-  padding-right: 50px;
+.formulaire {
+	margin-top: 10px;
 }
-
-.contact{
-  margin-top: 0;
-  margin-left: 100px;
-  font-weight: lighter;
-  font-size: 50%;
-  color: white;
-
+.d-block {
+	margin-top: 90px;
+	margin-left: 23px;
+	max-width: 100%;
 }
-
-article{
-  margin-top:-20px;
-
+.carousel-item {
+	image-orientation: center;
 }
-
-.tête{
-  margin-right: : -80px;
-  margin-top: 15px;
-  width: 84%;
-  height: 0.5px;
-  background-color: #FFFF;
-  border: none;
+.w-100 {
+	padding-right: 50px;
 }
-.bordure-bas{
-  margin-left:26px;
-  margin-top: 38px;
-  border-bottom:0.5px solid #FFFF;
-  width: 110%;
+.contact {
+	margin-top: 0;
+	margin-left: 100px;
+	font-weight: lighter;
+	font-size: 50%;
+	color: white;
+}
+article {
+	margin-top: -20px;
+}
+.tête {
+	margin-right: : -80px;
+	margin-top: 15px;
+	width: 84%;
+	height: 0.5px;
+	background-color: #FFFF;
+	border: none;
+}
+.bordure-bas {
+	margin-left: 26px;
+	margin-top: 38px;
+	border-bottom: 0.5px solid #FFFF;
+	width: 110%;
 }

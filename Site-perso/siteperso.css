@@ -3,8 +3,7 @@
 }
 body {
 	background-image: url('http://paca.lpo.fr/blogs/ecrins-embrunais/files/2014/01/IMG_7347_2.jpg');
-	background-size: 100%;
-	background-repeat: no-repeat;
+
 }
 .bordure {
 	border-right: NONE;
@@ -63,7 +62,11 @@ a:hover {
 }
 .interligne {
 	margin-top: -20px;
-	margin-bottom: 0px;
+	line-height:100%;
+}
+
+.interligne2{
+	line-height:100%;
 }
 p {
 	margin-top: -5px;
@@ -84,6 +87,9 @@ input {
 	width: 74.2%;
 	height: 32px;
 }
+form{
+	width: 300px;
+}
 .formulaire {
 	margin-top: 10px;
 }
@@ -93,14 +99,14 @@ input {
 	max-width: 100%;
 }
 .carousel-item {
-	image-orientation: center;
+image-orientation: center
 }
 .w-100 {
 	padding-right: 50px;
 }
 .contact {
-	margin-top: 0;
-	margin-left: 100px;
+	margin-top: -40px;
+	margin-left: 115px;
 	font-weight: lighter;
 	font-size: 50%;
 	color: white;
@@ -108,17 +114,25 @@ input {
 article {
 	margin-top: -20px;
 }
-.tête {
-	margin-right: : -80px;
+.head {
+	/*margin-right: : -80px;*/
 	margin-top: 15px;
 	width: 84%;
 	height: 0.5px;
-	background-color: #FFFF;
+	background-color: #FFF;
 	border: none;
 }
 .bordure-bas {
 	margin-left: 26px;
-	margin-top: 38px;
-	border-bottom: 0.5px solid #FFFF;
+	margin-top: 50px;
+	border-bottom: 0.5px solid #FFF;
 	width: 110%;
+}
+
+.message {
+ margin-left: 24.5px;
+}
+
+.case-mess{
+	width:200px;
 }

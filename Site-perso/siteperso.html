@@ -12,33 +12,29 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="col-border-right">
+			<div class="col-xs-6 col-md-4 col-sm-12 col-border-right">
 				<div class="cercle"><img alt="tête dessin" height="50" src="portrait.png" width="50"></div>
 				<h1 class="nom"><a href="portrait.png">Florian Labare</a></h1>
 				<h2 class="portfolio">Portfolio</h2>
-				<hr class="tête">
+				<hr class="head">
 				<div class="bordure">
 					<section class="texte-typo">
-						<p class="interligne">De</p>
-						<p class="interligne">nombreuses</p>
-						<p class="interligne">illustrations</p>
-						<p class="interligne">et projets</p>
-						<p class="interligne">design</p>
-						<p class="interligne">à venir.</p>
+						<p class="interligne"> De<br>nombreuses illustrations<br>et projets<br>design<br>à venir.</p>
 					</section>
 					<section class="texte-inscription">
-						<p>Pour rejoindre mon univers,</p>
-						<p>inscrivez-vous et tenez vous</p>
-						<p>au courant des actus.</p>
+						<p class="interligne2">Pour rejoindre mon univers,<br>inscrivez-vous et tenez vous<br>au courant des actus.</p>
 					</section>
 					<form action="https://formspree.io/flabare@gmail.com" class="formulaire" method="post">
-						<input name="_replyto" type="email"><br>
+						<p class="message">
+              <textarea class="case-mess" name="message" value="Votre message"></textarea>
+            </p>
+						<input type="email" name="email" value="exemple@email.com">
 						<button class="inscription">S'inscrire</button>
 					</form>
 					<div class="bordure-bas"></div>
 				</div>
 			</div>
-			<div class="col">
+			<div class="col-xs-6 col-md-8 col-sm-12">
 				<div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
 					<ol class="carousel-indicators">
 						<li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
@@ -56,14 +52,14 @@
 			</div>
 		</div>
 	</div>
+	<footer class="contact">
+		<p>Me contacter : tel : 06 22 12 01 89 &nbsp; &nbsp; Mail : flabare@gmail.com</p>
+	</footer>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
 	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
 	</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js">
 	</script>
-	<footer class="contact">
-		<p>Me contacter : tel : 06 22 12 01 89 &nbsp; &nbsp; Mail : flabare@gmail.com</p>
-	</footer>
 </body>
 </html>
